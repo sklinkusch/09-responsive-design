@@ -27,6 +27,7 @@
 }
 body {
   background-color: var(--main-bg);
+  font-family: sans-serif;
 }
 nav {
   background-color: black;
@@ -85,4 +86,37 @@ h1 {
 }
 .subtitle {
   text-transform: uppercase;
+}
+section, article {
+  background-color: var(--sect-bg);
+  margin-bottom: 20px;
+}
+.jumbotron {
+  width: 85%;
+  margin: 0 auto 20px auto;
+  border-radius: 20px;
+}
+.jumbotron-head {
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+.jumbotron-text {
+  margin: 0 15px 30px 15px;
+  text-align: justify;
+}
+.button-container {
+  text-align: center;
+}
+.jumbotron-button {
+  margin-bottom: 15px;
+  background-color: var(--button);
+  font-size: 1.5rem;
+  padding: 10px;
+  color: var(--sect-bg);
+}
+.jumbotron-button:hover {
+  background-color: var(--sect-bg);
+  color: var(--button-hov);
+  border: 2px solid var(--button-hov);
 }
