@@ -123,3 +123,7 @@ section, article {
   color: var(--button-hov);
   border: 2px solid var(--button-hov);
 }
+.further-articles {
+  width: 85%;
+  margin: var(--center-els);
+}
