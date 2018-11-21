@@ -66,6 +66,23 @@ nav a {
 .dropdown-a:hover nav, .dropdown-b:hover nav, .dropdown-c:hover nav {
   display: block;
 }
+header {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+  background-image: url(../images/sergei-akulich-457851-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   font-family: 'Dancing Script';
+  font-size: 3.5rem;
+  flex: 0 0 6rem;
+}
+.subtitle {
+  text-transform: uppercase;
 }
