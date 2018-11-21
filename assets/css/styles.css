@@ -165,3 +165,9 @@ section, article {
   text-align: justify;
   margin: 0 auto 30px auto;
 }
+.icons, .copyright {
+  text-align: center;
+}
+span.fab, span.fas {
+  font-size: 2em;
+}
