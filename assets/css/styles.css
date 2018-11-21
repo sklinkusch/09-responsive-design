@@ -105,6 +105,9 @@ section, article {
   margin: 0 15px 30px 15px;
   text-align: justify;
 }
+.main-text {
+  padding-bottom: 20px;
+}
 .button-container {
   text-align: center;
 }
