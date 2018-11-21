@@ -104,17 +104,17 @@ section, article {
   background-color: var(--sect-bg);
   margin-bottom: 20px;
 }
-.jumbotron, .main-content {
+.jumbotron, .main-content, .last, .further-articles {
   width: 85%;
   margin: 0 auto 20px auto;
   border-radius: 20px;
 }
-.jumbotron-head, .main-head {
+.jumbotron-head, .main-head, .last-head {
   margin: 20px auto;
   padding: 20px;
   text-align: center;
 }
-.jumbotron-text, .main-text {
+.jumbotron-text, .main-text, .last-text {
   margin: 0 15px 30px 15px;
   text-align: justify;
 }
@@ -124,21 +124,19 @@ section, article {
 .button-container {
   text-align: center;
 }
-.jumbotron-button, .article-button {
+.jumbotron-button, .article-button, .last-button {
   margin-bottom: 15px;
   background-color: var(--button);
   font-size: 1.5rem;
   padding: 10px;
   color: var(--sect-bg);
 }
-.jumbotron-button:hover, .article-button:hover {
+.jumbotron-button:hover, .article-button:hover, .last-button:hover {
   background-color: var(--sect-bg);
   color: var(--button-hov);
   border: 2px solid var(--button-hov);
 }
 .further-articles {
-  width: 85%;
-  margin: 0 auto 20px auto;
   display: flex;
   flex-wrap: wrap;
 }
