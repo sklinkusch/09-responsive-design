@@ -33,15 +33,18 @@
        url('../fonts/comfortaa-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/comfortaa-v12-latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
 }
+/* Remove browser settings */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* General styling */
 body {
   background-color: var(--main-bg);
   font-family: sans-serif;
 }
+/* Navigation */
 .mainnav > ul > li {
   display: inline-block;
 }
@@ -75,6 +78,7 @@ nav a {
 .dropdown-a:hover nav, .dropdown-b:hover nav, .dropdown-c:hover nav {
   display: block;
 }
+/* Header */
 header {
   width: 100vw;
   height: 50vh;
@@ -95,6 +99,7 @@ h1 {
 .subtitle {
   text-transform: uppercase;
 }
+/* Main part */
 section, article {
   background-color: var(--sect-bg);
   margin-bottom: 20px;
@@ -126,6 +131,7 @@ section, article {
   padding: 10px;
   color: var(--sect-bg);
 }
+/* Articles and images */
 .further {
   flex: 0 0 320px;
   border: 2px solid var(--button);
@@ -157,27 +163,34 @@ section, article {
   text-align: justify;
   margin: 0 auto 30px auto;
 }
+/* Footer */
 .icons, .copyright {
   text-align: center;
 }
 span.fab, span.fas {
   font-size: 2em;
 }
+/* Media queries */
+/* Large screens */
 @media screen and (min-width: 769px) {
+  /* Navigation */
   .mainnav {
     background-color: black;
     text-align: right;
     padding-right: 10px;
   }
+  /* Article section */
   .further-articles {
     display: flex;
     flex-wrap: wrap;
   }
+  /* Buttons */
   .jumbotron-button:hover, .article-button:hover, .last-button:hover {
     background-color: var(--sect-bg);
     color: var(--button-hov);
     border: 2px solid var(--button-hov);
   }
+  /* Hover effects on social network logos */
   [class*="facebook"]:hover, [class*="twitter"]:hover, [class*="linkedin"]:hover {
     color: blue;
   }
@@ -191,23 +204,29 @@ span.fab, span.fas {
     color: green;
   }
 }
+/* Tablet */
 @media screen and (min-width: 568px) and (max-width: 768px){
+  /* Navigation */
   .mainnav {
     background-color: black;
     text-align: right;
   }
+  /* Header */
   h1 {
     flex: 0 0 12rem;
   }
   .subtitle {
     color: var(--sect-bg);
   }
+  /* Article section */
   .further-articles {
     display: flex;
     flex-wrap: wrap;
   }
 }
+/* Phones */
 @media screen and (max-width: 567px) {
+  /* Navigation */
   .mainnav {
     background-color: black;
     text-align: right;
@@ -215,10 +234,12 @@ span.fab, span.fas {
   .mainnav > ul > li:last-child a {
     padding-right: 0;
   }
+  /* Header */
   .subtitle {
     text-transform: uppercase;
     color: var(--sect-bg);
   }
+  /* Article section */
   .further {
     display: flex;
     flex-direction: column;
