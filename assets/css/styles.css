@@ -91,17 +91,17 @@ section, article {
   background-color: var(--sect-bg);
   margin-bottom: 20px;
 }
-.jumbotron {
+.jumbotron, .main-content {
   width: 85%;
   margin: 0 auto 20px auto;
   border-radius: 20px;
 }
-.jumbotron-head {
+.jumbotron-head, .main-head {
   margin: 20px auto;
   padding: 20px;
   text-align: center;
 }
-.jumbotron-text {
+.jumbotron-text, .main-text {
   margin: 0 15px 30px 15px;
   text-align: justify;
 }
