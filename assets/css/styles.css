@@ -28,6 +28,44 @@
 body {
   background-color: var(--main-bg);
 }
+nav {
+  background-color: black;
+  text-align: right;
+  padding-right: 10px;
+}
+.mainnav > ul > li {
+  display: inline-block;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+}
+[class^="dropmenu-"] {
+  display: none;
+  background: white;
+  position: absolute;
+  top: 20px;
+}
+[class^="dropmenu-"] li {
+  list-style-type: none;
+}
+[class^="dropmenu-"] a {
+  color: black;
+}
+.dropmenu-c {
+  right: 30px;
+}
+.dropmenu-b {
+  right: 70px;
+}
+.dropmenu-a {
+  right: 160px;
+}
+.dropdown-a:hover nav, .dropdown-b:hover nav, .dropdown-c:hover nav {
+  display: block;
+}
 h1 {
   font-family: 'Dancing Script';
 }
