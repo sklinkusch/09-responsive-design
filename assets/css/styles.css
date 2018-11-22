@@ -90,6 +90,7 @@ header {
   background-image: url(../images/sergei-akulich-457851-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 h1 {
   font-family: 'Dancing Script';
