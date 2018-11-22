@@ -178,6 +178,16 @@ section, article {
   margin: 0 auto 30px auto;
 }
 /* Footer */
+fieldset {
+  margin: 0 auto 20px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+fieldset input, fieldset button {
+  margin: var(--center-els);
+}
 .icons, .copyright {
   text-align: center;
 }
@@ -197,7 +207,7 @@ span.fab, span.fas {
     text-align: right;
     padding-right: 10px;
   }
-  .jumbotron, .main-content, .last, .further-articles {
+  .jumbotron, .main-content, .last, .further-articles, fieldset {
     width: 720px;
   }
   /* Article section */
@@ -242,7 +252,7 @@ span.fab, span.fas {
     text-align: right;
   }
   /* Contents in the main section */
-  .jumbotron, .main-content, .last, .further-articles {
+  .jumbotron, .main-content, .last, .further-articles, fieldset {
     width: 500px;
   }
   /* Article section */
@@ -265,7 +275,7 @@ span.fab, span.fas {
     padding-right: 0;
   }
   /* Contents in the main section */
-  .jumbotron, .main-content, .last, .further-articles {
+  .jumbotron, .main-content, .last, .further-articles, fieldset {
     width: 320px;
   }
   /* Article section */
