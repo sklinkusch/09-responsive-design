@@ -180,6 +180,10 @@ section, article {
 .icons, .copyright {
   text-align: center;
 }
+a.social {
+  text-decoration: underline dotted;
+  color: black;
+}
 span.fab, span.fas {
   font-size: 2em;
 }
