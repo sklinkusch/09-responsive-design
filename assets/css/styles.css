@@ -146,21 +146,30 @@ section, article {
   border: 2px solid var(--button);
   border-radius: 10px;
   margin: 2.5%;
+  position: relative;
+  overflow: hidden;
 }
 .further section {
   margin-top: 10px;
-  background-image: url(../images/niilo-isotalo-379496-unsplash.jpg);
-  height: 150px;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.further section a {
+  color: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.further section img {
+  width: 100%;
 }
 .further h2 {
   text-align: center;
   font-family: 'Comfortaa';
   color: white;
+  position: absolute;
+  top: 80px;
 }
 .further p {
   width: 90%;
@@ -190,6 +199,15 @@ span.fab, span.fas {
   .further-articles {
     display: flex;
     flex-wrap: wrap;
+  }
+  .further section {
+    height: 190px;
+  }
+  .further section:hover a {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
   /* Buttons */
   .jumbotron-button:hover, .article-button:hover, .last-button:hover {
@@ -227,6 +245,9 @@ span.fab, span.fas {
     display: flex;
     flex-wrap: wrap;
   }
+  .further section {
+    height: 130px;
+  }
 }
 /* Phones */
 @media screen and (max-width: 567px) {
@@ -247,5 +268,8 @@ span.fab, span.fas {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+  }
+  .further section {
+    height: 180px;
   }
 }
