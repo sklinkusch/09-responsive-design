@@ -1,4 +1,28 @@
 # Responsive template
+
+This website was created by Stefan Klinkusch at Digital Career Institute in Berlin, Germany. 
+
+## Techniques
+
+- semantic HTML
+- usage of normalize.css
+- usage of fontawesome
+- usage of Google webfonts
+- CSS3
+  - usage of different units (_not only_ % and px, but _also_ em, rem, vh, vw)
+  - pseudo-classes (:active, :first-of-type, :first-child, :hover, :last-child, :last-of-type, :visited)
+  - pseudo-elements (::after, ::before)
+  - flexbox
+  - css-variables
+  - border-radius
+  - media queries
+
+## Screenshot
+
+![Screenshot](./Screenshot.png)
+	
+
+## Task
 You will create a responsive layout using HTML and CSS
 
 ### Topics
